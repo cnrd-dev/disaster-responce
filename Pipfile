@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+jupyter-contrib-nbextensions = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+statsmodels = "*"
+scikit-learn = "*"
+joblib = "*"
+colorlover = "*"
+sqlalchemy = "*"
+nltk = "*"
+flask = "*"
+xgboost = "*"
+langdetect = "*"
+pycountry = "*"
+
+[dev-packages]
+bandit = "*"
+black = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
